@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Stopwatch from './Components/Stopwatch/Stopwatch';
 
 function App() {
   return (
     <div className="App">
-     <h1>hey</h1>
+     <Stopwatch/>
     </div>
   );
 }

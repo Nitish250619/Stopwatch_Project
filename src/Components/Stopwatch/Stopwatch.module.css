@@ -1,0 +1,42 @@
+.wrapper {
+  height: 640px;
+  width: 360px;
+  background-color: white;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  gap: 30px;
+}
+
+.timer {
+  background-color: antiquewhite;
+  height: 80px;
+  width: 250px;
+  text-align: center;
+}
+
+.controller {
+  background-color: bisque;
+  height: 80px;
+  width: 250px;
+  border-radius: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.play,
+.pause,
+.volume {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
