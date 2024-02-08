@@ -11,15 +11,23 @@
   gap: 30px;
 }
 
+.darkMode {
+    background-color: rgb(49, 44, 44); 
+  }
+
+.controllerchange{
+    background-color: white;
+} 
+  
+
 .timer {
-  background-color: antiquewhite;
   height: 80px;
   width: 250px;
   text-align: center;
 }
 
 .controller {
-  background-color: bisque;
+  background-color: orange;
   height: 80px;
   width: 250px;
   border-radius: 3rem;
